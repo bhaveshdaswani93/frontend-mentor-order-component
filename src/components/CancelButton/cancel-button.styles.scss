@@ -1,0 +1,13 @@
+.cancel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    &:hover {
+        color:  hsl(223, 47%, 23%);
+    }
+}

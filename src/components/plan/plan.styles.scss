@@ -1,0 +1,44 @@
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 30px 0;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    &__plan-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 30px;
+        @media screen and (max-width:500px) {
+            margin-left: 15px;
+        }
+    }
+    &__plan-name {
+        font-weight: 900;
+    }
+
+    &__plan-price {
+        color:  hsl(224, 23%, 55%);
+    }
+
+    &__plan-group {
+        display: flex;
+    }
+
+    &__change-plan {
+        color: hsl(245, 75%, 52%);
+        cursor: pointer;
+        font-weight: 700;
+        // border-bottom: 1px solid hsl(245, 75%, 52%);
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+            color:hsla(245, 75%, 52%,0.8)
+        }
+    }
+
+}

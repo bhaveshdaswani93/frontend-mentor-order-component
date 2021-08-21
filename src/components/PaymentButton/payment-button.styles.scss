@@ -1,0 +1,16 @@
+.payment-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow:0px 3px 4px #cbd7f6;
+    cursor: pointer;
+    font-weight: 700;
+    &:hover {
+        background-color:   hsla(245, 75%, 52%,0.8)
+    }
+}
